@@ -143,12 +143,12 @@ const languages = [
 
 
 const portfolio = [
-    // {
-    //     img: "/portfolio/floodzilla.png",
-    //     description: "Ferramenta em Golang para realizar ataques de Negação de Serviço (DoS).",
-    //     link1: "#",
-    //     link1_text: "Github",
-    // }
+    {
+        img: "/images/portfolio/linkaboo.png",
+        description: "Script de Enumeração Linux focado em pós-exploração, ideal para mapear sistemas e identificar potenciais vetores de ataque.",
+        link1: "https://github.com/tyto-sec/linkaboo",
+        link1_text: "Github",
+    }
 ];
 
 
