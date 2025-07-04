@@ -11,7 +11,7 @@ const introdata = {
         second: "a.k.a. tyto",
         third: "a.k.a. tyto",
     },
-    description: "Sou um Pentester com experiência em desenvolvimento de software e segurança ofensiva. Estou sempre buscando aprender e me aprimorar na área de segurança da informação.",
+    description: "Sou um Engenheiro Físico com experiência em Segurança Ofensiva, Desenvolvimento Web e Engenharia de Dados. Estou sempre aberto a novas oportunidades e colaborações. Não exite em entrar em contato!",
     your_img_url: "/images/victor.jpg",
 };
 
@@ -141,12 +141,17 @@ const languages = [
 ]
 
 
-
 const portfolio = [
     {
         img: "/images/portfolio/linkaboo.png",
         description: "Script de Enumeração Linux focado em pós-exploração, ideal para mapear sistemas e identificar potenciais vetores de ataque.",
         link1: "https://github.com/tyto-sec/linkaboo",
+        link1_text: "Github",
+    },
+        {
+        img: "/images/portfolio/nmapalooza.png",
+        description: "Este script automatiza o processo de escaneamento de uma rede em vários estágios utilizando Nmap.",
+        link1: "https://github.com/tyto-sec/nmapalooza",
         link1_text: "Github",
     }
 ];
