@@ -11,21 +11,26 @@ const introdata = {
         second: "a.k.a. tyto",
         third: "a.k.a. tyto",
     },
-    description: "Sou um Engenheiro Físico com experiência em Segurança Ofensiva, Desenvolvimento Web e Engenharia de Dados. Estou sempre aberto a novas oportunidades e colaborações. Não exite em entrar em contato!",
+    description: "Sou um Engenheiro Físico com experiência em Segurança Ofensiva, Desenvolvimento Web, Análise e Engenharia de Dados. Estou sempre aberto a novas oportunidades e colaborações. Não exite em entrar em contato!",
     your_img_url: "/images/victor.jpg",
 };
 
 const dataabout = {
     title: "Sobre mim",
-    aboutme1: "Atualmente trabalho como Desenvolvedor Júnior na DB Server. Sou terceiro na equipe de Governança de TI do Sicredi, a primeira instituição financeira cooperativa da América Latina. Nesta função, trabalho no desenvolvimento Front-End com React e TypeScript, desenvolvimento Back-End com Java e Spring Boot e construção de ETLs usando Python, SQL e Databricks.",
+    aboutme1: "Atualmente trabalho como Engenheiro de Software do Sicredi na equipe de Governança de TI do Sicredi, a primeira instituição financeira cooperativa da América Latina. Nesta função, trabalho no desenvolvimento Front-End com React e TypeScript, desenvolvimento Back-End com Java e Spring Boot, construção de ETLs no Databricks, implementação de Pipelines de Dados em Python, Criação de Dashboards no Power BI e Relatórios no Denodo.",
     aboutme2: "Além disso estou constantemente me aprimorando na área de Segurança Ofensiva, através de cursos, certificações, CTFs e mentorias com profissionais mais experientes."
 };
 
 const worktimeline = [
     {
+        jobtitle: "Engenheiro de Software Jr.",
+        where: "Sicredi",
+        date: "2025 - Atualmente",
+    },
+    {
         jobtitle: "Desenvolvedor Jr.",
         where: "DB Server",
-        date: "2024 - Atualmente",
+        date: "2024 - 2025",
     },
     {
         jobtitle: "Trainee",
@@ -46,7 +51,7 @@ const worktimeline = [
 
 const education = [{
         title: "Engenharia Eletrônica e de Telecomunicações | UFU | 2021 - 2024",
-        description: "Cursei sete semestres de Engenharia Eletrônica e de Telecomunicações na Universidade Federal de Uberlândia, onde finalizei todas as disciplinas do eixo de Computação, as quais estavam inclusas: Introdução a Programação, Programação Orientada a Objetos, Engenharia de Software, Inteligência Artificial, Redes de Comunicação, dentre outras disciplinas dos eixos de Eletrônica, Controle e Telecomunicações.",
+        description: "Cursei nove semestres de Engenharia Eletrônica e de Telecomunicações na Universidade Federal de Uberlândia, onde finalizei todas as disciplinas do eixo de Computação, as quais estavam inclusas: Introdução a Programação, Programação Orientada a Objetos, Engenharia de Software, Inteligência Artificial, Redes de Comunicação, dentre outras disciplinas dos eixos de Eletrônica, Controle e Telecomunicações.",
     },
     {
         title: "Eng. de Tecnologia da Informação | Obuda University | 2014 - 2015",
