@@ -107,23 +107,27 @@ const techniques = [
     },
     {
         name: "Pentest Interno",
-        value: 60,
+        value: 70,
     },
     {
         name: "Exploração de Binários",
-        value: 50,
+        value: 60,
     }
 ];
 
 const methodologies = [
     {
         name: "OWASP",
-        value: 60,
+        value: 70,
     },
     {
         name: "PTES",
-        value: 60,
+        value: 70,
     },
+    {
+        name: "MITRE ATT&CK",
+        value: 70,
+    }
 ];
 
 const languages = [
@@ -137,11 +141,23 @@ const languages = [
     },
     {
         name: "Javascript",
-        value: 70,
+        value: 80,
     },
     {
         name: "Bash Script",
-        value: 70
+        value: 80
+    },
+    {
+        name: "Golang",
+        value: 70,
+    },
+    {
+        name: "C",
+        value: 70,
+    },
+    {
+        name: "Powershell",
+        value: 60,
     }
 ]
 
