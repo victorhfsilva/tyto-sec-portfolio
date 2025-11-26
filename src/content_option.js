@@ -11,14 +11,14 @@ const introdata = {
         second: "a.k.a. tyto",
         third: "a.k.a. tyto",
     },
-    description: "Sou um Engenheiro Físico com experiência em Segurança Ofensiva, Desenvolvimento Web, Análise e Engenharia de Dados. Estou sempre aberto a novas oportunidades e colaborações. Não exite em entrar em contato!",
+    description: "Sou formado em Engenharia Física pela UEMS com graduação sanduíche em Engenharia de Tecnologia da Informação pela Óbuda University. Já minha experiência profissional está distribuída entre Segurança Ofensiva, Desenvolvimento de Software e Engenharia de Dados.",
     your_img_url: "/images/victor.jpg",
 };
 
 const dataabout = {
     title: "Sobre mim",
-    aboutme1: "Atualmente trabalho como Engenheiro de Software do Sicredi na equipe de Governança de TI do Sicredi, a primeira instituição financeira cooperativa da América Latina. Nesta função, trabalho no desenvolvimento Front-End com React e TypeScript, desenvolvimento Back-End com Java e Spring Boot, construção de ETLs no Databricks, implementação de Pipelines de Dados em Python, Criação de Dashboards no Power BI e Relatórios no Denodo.",
-    aboutme2: "Além disso estou constantemente me aprimorando na área de Segurança Ofensiva, através de cursos, certificações, CTFs e mentorias com profissionais mais experientes."
+    aboutme1: "Atualmente trabalho como Engenheiro de Software do Sicredi na equipe de Governança de TI do Sicredi, a primeira instituição financeira cooperativa da América Latina. Nesta função, trabalho no desenvolvimento Front-End com React e TypeScript, desenvolvimento Back-End com Java e Spring Boot, construção de ETLs no Databricks e implementação de Pipelines de Dados em Python.",
+    aboutme2: "Além disso estou constantemente me aprimorando na área de Segurança Ofensiva, através de cursos, certificações, CTFs e Bug Bounties."
 };
 
 const worktimeline = [
@@ -36,43 +36,34 @@ const worktimeline = [
         jobtitle: "Trainee",
         where: "DB Server",
         date: "2023 - 2024",
-    },
-    {
-        jobtitle: "Monitor de Educação Tecnológica",
-        where: "ZOOM education for life",
-        date: "2023 - 2023",
-    },
-    {
-        jobtitle: "Assessor de Projetos",
-        where: "Inovatos Consultoria Júnior",
-        date: "2022 - 2022",
     }
 ];
 
-const education = [{
-        title: "Engenharia Eletrônica e de Telecomunicações | UFU | 2021 - 2024",
-        description: "Cursei nove semestres de Engenharia Eletrônica e de Telecomunicações na Universidade Federal de Uberlândia, onde finalizei todas as disciplinas do eixo de Computação, as quais estavam inclusas: Introdução a Programação, Programação Orientada a Objetos, Engenharia de Software, Inteligência Artificial, Redes de Comunicação, dentre outras disciplinas dos eixos de Eletrônica, Controle e Telecomunicações.",
-    },
+const education = [
     {
         title: "Eng. de Tecnologia da Informação | Obuda University | 2014 - 2015",
-        description: "Fiz um intercâmbio de três semestres em Budapeste na Hungria pelo programa Ciências sem Fronteiras, onde cursei disciplinas de Tecnologia da Informação e Engenharia de Controle por um ano, além de um curso intensivo de Inglês por um semestre.",
+        description: "Realizei uma graduação sanduíche em Budapeste pelo programa Ciências sem Fronteiras onde cursei 1 ano de Engenharia de Tecnologia da Informação e seis meses de um curso intensivo de inglês.",
     },
     {
         title: "Engenharia Física | UEMS | 2012 - 2019",
-        description: "Sou formado em Engenharia Física pela Universidade Estadual de Mato Grosso do Sul. Neste curso, tive contato com várias disciplinas de Física, Matemática, Eletrônica e Engenharia de Controle. Esta graduação foi fundamental para meu desenvolvimento acadêmico e profissional, pois me ensinou aprender a aprender."
+        description: "Sou formado em Engenharia Física pela Universidade Estadual de Mato Grosso do Sul."
     }
 ];
 
 const certifications = [{
     title: "DCPT | DESEC | Em progresso",
-    description: "Atualmente estou me preparando para certificação DCPT através dos laboratórios do Pentest Experience, CTFs e módulos da Hack The Box Academy.",
+    description: "Atualmente estou me preparando para certificação DCPT através de CTFs.",
+},
+{
+    title: "CWHI | Hacking Club | Em progresso",
+    description: "Estou no processo de estudos do Web Hacking na prática, o curso preparatório para CWHI.",
 }
 ];
 
 const complementar_education = [
 {
     title: "Pentest Experience v1 | DESEC | 2025",
-    description: "Este curso é composto por vários laboratórios realísticos de Pentest, onde exercitei conceitos de Pentest de Infraestrutura, Pentest Web e Pentest Interno.",
+    description: "Este curso é composto por vários ambientes realísticos, onde exercitei conceitos de Pentest de Infraestrutura, Pentest Web e Pentest Interno.",
 },
 {
     title: "Novo Pentest Profissional | DESEC | 2025",
@@ -84,7 +75,7 @@ const complementar_education = [
 },
 {
     title: "Intensive Course of English and Hungarian | Obuda University | 2014",
-    description: "Durante meu intercâmbio na Hungria, cursei um semestre intensivo de inglês e húngaro. Neste curso, elevei bastante o nível do meu inglês, além de aprender um pouco sobre a cultura e a língua húngara.",
+    description: "Durante meu intercâmbio na Hungria, cursei por um semestre um curso intensivo de inglês e húngaro. Neste curso, elevei bastante o nível do meu inglês, além de aprender um pouco sobre a cultura e a língua húngara através da imersão no país.",
 },
 ];
 
@@ -186,8 +177,10 @@ const contactConfig = {
 const socialprofils = {
     github: "https://github.com/tyto-sec",
     linkedin: "https://www.linkedin.com/in/victorhfsilva/",
-    youtube: "https://www.youtube.com/channel/UCIjNSUfEUkaFJRZbKBUjTzQ",
-    twitter: "https://x.com/victor_hfsilva"
+    youtube: "https://youtube.com/@TytoSecurity",
+    twitter: "https://x.com/tytosec",
+    instagram: "https://instagram.com/tytosec",
+    twitch: "https://twitch.tv/tytosec"
 };
 
 export {
