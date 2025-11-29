@@ -155,6 +155,12 @@ const languages = [
 
 const portfolio = [
     {
+        img: "/images/portfolio/dnskiller.png",
+        description: "Script de scan de possíveis vulnerabilidades de Subdomain Takeover e Email Spoofing em uma lista de domínios.",
+        link1: "https://github.com/tyto-sec/DnsKiller",
+        link1_text: "Github",
+    },
+    {
         img: "/images/portfolio/linkaboo.png",
         description: "Script de Enumeração Linux focado em pós-exploração, ideal para mapear sistemas e identificar potenciais vetores de ataque.",
         link1: "https://github.com/tyto-sec/linkaboo",
