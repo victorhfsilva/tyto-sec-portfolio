@@ -161,6 +161,12 @@ const portfolio = [
         link1_text: "Github",
     },
     {
+        img: "/images/portfolio/hacker1grabber.png",
+        description: "Script que extrai uma lista de domínios limpos e não duplicados de uma lista de CSVs exportados dos escopos da HackerOne.",
+        link1: "https://github.com/tyto-sec/hacker1grabber",
+        link1_text: "Github",
+    },
+    {
         img: "/images/portfolio/linkaboo.png",
         description: "Script de Enumeração Linux focado em pós-exploração, ideal para mapear sistemas e identificar potenciais vetores de ataque.",
         link1: "https://github.com/tyto-sec/linkaboo",
